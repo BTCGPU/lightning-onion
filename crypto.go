@@ -8,7 +8,7 @@ import (
 	"fmt"
 
 	"github.com/aead/chacha20"
-	"github.com/btcsuite/btcd/btcec"
+	"github.com/btgsuite/btgd/btcec"
 )
 
 const (
