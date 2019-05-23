@@ -1,6 +1,6 @@
 package sphinx
 
-import "github.com/btcsuite/btcd/btcec"
+import "github.com/btgsuite/btgd/btcec"
 
 // NumMaxHops is the maximum path length. This should be set to an estimate of
 // the upper limit of the diameter of the node graph.

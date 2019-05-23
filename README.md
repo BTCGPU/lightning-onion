@@ -5,7 +5,7 @@ uses onion routing to securely, and privately route HTLC's
 (Hash-Time-Locked-Contracts, basically a conditional payment) within the
 network.  (A full specification of the protocol can be found amongst the
 lighting-rfc repository, specifically within
-[BOLT#04](https://github.com/lightningnetwork/lightning-rfc/blob/master/04-onion-routing.md).
+[BOLT#04](https://github.com/BTCGPU/lightning-rfc/blob/master/04-onion-routing.md).
 
 The Lightning Network is composed of a series of "payment channels" which are
 essentially tubes of money whose balances can instantaneous be reallocated
@@ -22,7 +22,7 @@ worst-case time-lock period enforced by the conditional payment contract.
 
 In line with Bitcoin's spirit of decentralization and censorship resistance, we
 employ an onion routing scheme within the [Lightning
-protocol](https://github.com/lightningnetwork/lightning-rfc) to prevent the
+protocol](https://github.com/BTCGPU/lightning-rfc) to prevent the
 ability of participants on the network to easily censor payments, as the
 participants are not aware of the final destination of any given payment.
 Additionally, by encoding payment routes within a mix-net like packet, we are
