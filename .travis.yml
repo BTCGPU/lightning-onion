@@ -3,11 +3,11 @@ cache:
   directories:
     - $GOCACHE
     - $GOPATH/pkg/mod
-    - $GOPATH/src/github.com/btcsuite
+    - $GOPATH/src/github.com/btgsuite
     - $GOPATH/src/github.com/golang
 
 go:
-  - "1.12.x"
+  - "1.13.x"
 
 sudo: required
 
